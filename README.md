@@ -1,4 +1,4 @@
-# Financial RAG Application Documentation
+# Financial RAG Application For Data Extraction and QA
 
 ## Table of Contents
 
