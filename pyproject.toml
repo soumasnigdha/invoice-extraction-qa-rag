@@ -1,0 +1,31 @@
+[project]
+name = "fin-rag-app"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "chromadb>=1.0.15",
+    "faiss-cpu>=1.11.0.post1",
+    "ipykernel>=6.30.0",
+    "langchain>=0.3.27",
+    "langchain-chroma>=0.2.5",
+    "langchain-community>=0.3.27",
+    "langchain-huggingface>=0.3.1",
+    "langchain-openai>=0.3.28",
+    "ollama>=0.5.1",
+    "openpyxl>=3.1.5",
+    "pandas>=2.3.1",
+    "pillow>=11.3.0",
+    "pydantic>=2.11.7",
+    "pypdf2>=3.0.1",
+    "pytesseract>=0.3.13",
+    "python-multipart>=0.0.20",
+    "sentence-transformers>=5.0.0",
+    "streamlit>=1.47.1",
+    "tiktoken>=0.9.0",
+    "torch>=2.7.1",
+    "torchaudio>=2.7.1",
+    "torchvision>=0.22.1",
+    "transformers>=4.54.1",
+]

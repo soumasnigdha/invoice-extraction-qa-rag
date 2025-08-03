@@ -1,0 +1,29 @@
+2025-08-02 22:43:54,488 - main - INFO - Financial RAG Application initialized successfully
+2025-08-02 22:45:58,205 - main - INFO - Processing document with RAG: amazon.pdf
+2025-08-02 22:45:58,206 - main - INFO - Extracting structured data with RAG...
+2025-08-02 22:45:58,285 - src.core.document_processor - INFO - Loaded 1 pages from amazon.pdf
+2025-08-02 22:45:58,298 - src.core.document_processor - INFO - Loaded 1 pages from amazon.pdf
+2025-08-02 22:45:58,298 - src.core.document_processor - INFO - Created 3 text chunks
+2025-08-02 22:45:58,427 - src.core.vector_store - INFO - Added 3 documents to vector store
+2025-08-02 22:45:58,427 - src.core.rag_pipeline - INFO - Successfully indexed document amazon_1754174758 with 3 chunks
+2025-08-02 22:46:21,744 - main - INFO - Saving individual invoice Excel...
+2025-08-02 22:46:21,767 - src.core.excel_handler - INFO - Saved individual invoice Excel: /home/soumasnigdha/f-ai/Projects/fin_rag_app/output/individual_invoices/invoice_HYD8-3001153.xlsx
+2025-08-02 22:46:21,768 - main - INFO - Mapping to master template...
+2025-08-02 22:46:38,516 - main - INFO - Updating master Excel...
+2025-08-02 22:46:38,557 - src.core.excel_handler - INFO - Updated master Excel: /home/soumasnigdha/f-ai/Projects/fin_rag_app/output/master_data/master_financial_data.xlsx
+2025-08-02 22:46:38,557 - main - INFO - Successfully processed amazon.pdf with RAG
+2025-08-02 22:46:38,558 - main - INFO - Processing document with RAG: invoice4.pdf
+2025-08-02 22:46:38,558 - main - INFO - Extracting structured data with RAG...
+2025-08-02 22:46:38,701 - src.core.document_processor - INFO - Loaded 2 pages from invoice4.pdf
+2025-08-02 22:46:38,975 - src.core.document_processor - INFO - Loaded 2 pages from invoice4.pdf
+2025-08-02 22:46:38,975 - src.core.document_processor - INFO - Created 3 text chunks
+2025-08-02 22:46:39,086 - src.core.vector_store - INFO - Added 3 documents to vector store
+2025-08-02 22:46:39,086 - src.core.rag_pipeline - INFO - Successfully indexed document invoice4_1754174798 with 3 chunks
+2025-08-02 22:47:01,010 - main - INFO - Saving individual invoice Excel...
+2025-08-02 22:47:01,028 - src.core.excel_handler - INFO - Saved individual invoice Excel: /home/soumasnigdha/f-ai/Projects/fin_rag_app/output/individual_invoices/invoice_C020692300346813.xlsx
+2025-08-02 22:47:01,028 - main - INFO - Mapping to master template...
+2025-08-02 22:47:16,166 - main - INFO - Updating master Excel...
+2025-08-02 22:47:16,202 - src.core.excel_handler - INFO - Updated master Excel: /home/soumasnigdha/f-ai/Projects/fin_rag_app/output/master_data/master_financial_data.xlsx
+2025-08-02 22:47:16,202 - main - INFO - Successfully processed invoice4.pdf with RAG
+2025-08-02 22:50:37,291 - main - INFO - Query executed: 'what is the invoice date for invoice(invoice number: HYD8-3001153)' - Found 5 relevant chunks
+2025-08-02 22:51:24,994 - main - INFO - Query executed: 'what is the invoice date for invoice(invoice number: C020692300346813)' - Found 5 relevant chunks

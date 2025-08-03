@@ -1,0 +1,56 @@
+{
+  "invoice_schema": {
+    "invoice_info": {
+      "invoice_number": "string",
+      "invoice_date": "string (YYYY-MM-DD)",
+      "due_date": "string (YYYY-MM-DD)",
+      "po_number": "string",
+      "currency": "string"
+    },
+    "vendor": {
+      "name": "string",
+      "address": "string",
+      "phone": "string",
+      "email": "string",
+      "gst_number": "string",
+      "pan": "string"
+    },
+    "customer": {
+      "name": "string",
+      "address": "string",
+      "phone": "string",
+      "email": "string",
+      "gst_number": "string",
+      "pan": "string"
+    },
+    "line_items": [
+      {
+        "item_name": "string",
+        "item_code": "string",
+        "hsn_sac_code": "string",
+        "quantity": "number",
+        "taxable_amount": "number",
+        "discount_amount": "number",
+        "cgst_rate": "number (percentage)",
+        "cgst_amount": "number",
+        "sgst_rate": "number (percentage)",
+        "sgst_amount": "number",
+        "igst_rate": "number (percentage)",
+        "igst_amount": "number",
+        "cess_rate": "number (percentage)",
+        "cess_amount": "number",
+        "total_amount": "number"
+      }
+    ],
+    "totals": {
+      "tax_total": "number",
+      "grand_total": "number"
+    },
+    "payment_info": {
+      "payment_terms": "string",
+      "payment_method": "string",
+      "bank_account": "string",
+      "ifsc_code": "string"
+    }
+  }
+}
