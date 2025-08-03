@@ -566,16 +566,3 @@ Priority areas for enhancement:
 - **API Development**: REST API for programmatic access
 - **Mobile Support**: Responsive design for mobile devices
 
-## License
-
-[Include appropriate license information]
-
-## Support
-
-For support, questions, or contributions, please [include contact information or repository links].
-
-## Changelog
-
-[Maintain version history and feature updates]
-
-_This documentation is maintained by the Financial RAG Application development team. Last updated: [Date]_
